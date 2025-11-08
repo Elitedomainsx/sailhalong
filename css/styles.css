@@ -121,47 +121,47 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.54rem + 1.68vw);
 }
 @media (min-width: 1200px) {
   h1, .h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.484rem + 1.008vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 2.24rem;
   }
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.456rem + 0.672vw);
 }
 @media (min-width: 1200px) {
   h3, .h3 {
-    font-size: 1.75rem;
+    font-size: 1.96rem;
   }
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.428rem + 0.336vw);
 }
 @media (min-width: 1200px) {
   h4, .h4 {
-    font-size: 1.5rem;
+    font-size: 1.68rem;
   }
 }
 
 h5, .h5 {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 
 h6, .h6 {
-  font-size: 1rem;
+  font-size: 1.12rem;
 }
 
 p {
@@ -10937,7 +10937,7 @@ header.masthead {
 }
 
 header.masthead h1, header.masthead .h1 {
-  font-size: 2.25rem;
+  font-size: 2.52rem;
 }
 @media (min-width: 992px) {
   header.masthead {
@@ -10950,12 +10950,12 @@ header.masthead h1, header.masthead .h1 {
     font-size: 1.15rem;
   }
   header.masthead h1, header.masthead .h1 {
-    font-size: 3rem;
+    font-size: 3.36rem;
   }
 }
 @media (min-width: 1200px) {
   header.masthead h1, header.masthead .h1 {
-    font-size: 3.5rem;
+    font-size: 3.92rem;
   }
 }
 
