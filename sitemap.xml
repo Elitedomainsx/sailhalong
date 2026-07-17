@@ -1,12 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.sailhalong.com/</loc>
-  </url>
-  <url>
-    <loc>https://www.sailhalong.com/best-halong-cruises.html</loc>
-  </url>
-  <url>
-    <loc>https://www.sailhalong.com/privacy.html</loc>
-  </url>
+<url>
+<loc>https://www.sailhalong.com</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/about</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/privacy</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/guides</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/blog</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/halong-bay-cruises</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/best-halong-bay-cruises</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/halong-bay-overnight-cruises</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/halong-bay-day-trips-from-hanoi</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/how-many-days-in-halong-bay</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/is-halong-bay-worth-visiting</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/halong-bay-weather-best-time</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://www.sailhalong.com/halong-bay-weather-december</loc>
+<lastmod>2026-07-17T21:45:12.564Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
 </urlset>
