@@ -1,0 +1,12 @@
+{
+  "name": "sailhalong-static",
+  "private": true,
+  "scripts": {
+    "verify": "node --check gyg-widget-v1.js",
+    "audit:lighthouse": "node scripts/run-lighthouse-suite.mjs --project-dir=. --out-dir=work/lighthouse-latest --skip-build --mobile-performance-min=100 --desktop-performance-min=100"
+  },
+  "devDependencies": {
+    "chrome-launcher": "1.2.1",
+    "lighthouse": "13.4.1"
+  }
+}
