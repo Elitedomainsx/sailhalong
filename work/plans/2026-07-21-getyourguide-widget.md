@@ -68,4 +68,4 @@ Success means:
 - Delayed the local controller until analytics consent and delayed the GetYourGuide third-party loader until the widget approaches the viewport.
 - Verified the rendered widget at desktop and mobile widths, including direct loads, client navigation, consent denial, overflow, accessible names, and reserved space.
 - Completed the 14-route, mobile/desktop Lighthouse evidence matrix. The post-optimization isolated commercial-page gate passed at a 100 mobile median and 100 desktop median with zero CLS. The larger cold-run matrix showed system-wide mobile CPU variance on routes where the widget cannot load, so a public PageSpeed follow-up remains mandatory after an authorized deployment.
-- No deployment, push, or production change was made.
+- Published the verified commit to `codex/getyourguide-widgets` and opened draft PR #10 on 2026-07-21. No merge or production deployment was made.
