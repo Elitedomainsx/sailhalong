@@ -1,0 +1,45 @@
+name: Search Console editorial export
+
+on:
+  workflow_dispatch: {}
+  push:
+    paths:
+      - .github/workflows/search-console-export.yml
+  schedule:
+    - cron: "5 2 * * 1,4"
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GSC_CREDENTIALS_JSON: ${{ secrets.GSC_CREDENTIALS_JSON }}
+      GSC_SITE_URL: sc-domain:sailhalong.com
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install Search Console client
+        run: pip install google-api-python-client==2.149.0 google-auth==2.35.0 google-auth-httplib2==0.2.0
+      - name: Export Search Console data
+        run: python tools/gsc_editorial_export.py
+      - name: Update readable 28-day CSV
+        run: |
+          if [ -n "$(git status --porcelain -- data/gsc_latest.csv)" ]; then
+            git config user.name "gsc-editorial-export"
+            git config user.email "gsc-editorial-export@users.noreply.github.com"
+            git add data/gsc_latest.csv
+            git commit -m "data: refresh Search Console queries"
+            git push
+          fi
+      - name: Save 28 and 90-day export
+        uses: actions/upload-artifact@v4
+        with:
+          name: gsc-editorial-${{ github.run_id }}
+          path: gsc-editorial-export/
+          if-no-files-found: error
+          retention-days: 60
