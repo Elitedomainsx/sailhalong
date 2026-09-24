@@ -1,12 +1,9 @@
-name: Search Console editorial export
+name: Search Console editorial export (manual fallback)
 
+# Scheduled extraction is centralized in Elitedomainsx/seine-travel so the
+# authenticated Search Console connection is maintained in one place.
 on:
   workflow_dispatch: {}
-  push:
-    paths:
-      - .github/workflows/search-console-export.yml
-  schedule:
-    - cron: "5 2 * * 1,4"
 
 permissions:
   contents: write
